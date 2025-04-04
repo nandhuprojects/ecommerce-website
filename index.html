@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopEasy - Home</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>ShopEasy</h1>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html" class="active">Home</a>
+          </li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Welcome to ShopEasy</h2>
+        <p>Your one-stop shop for amazing products at amazing prices!</p>
+        <a href="products.html" class="btn">Shop Now</a>
+      </div>
+    </section>
+
+    <section class="featured-products">
+      <h2>Featured Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img
+            src="https://m.media-amazon.com/images/I/41dH162raPL._AC_UF1000,1000_QL80_.jpg"
+            alt="Product 1"
+          />
+          <h3>Premium Headphones</h3>
+          <p class="price">$99.99</p>
+          <button class="btn" onclick="redirectToProduct(1)">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://www.sony.co.in/image/e6c64548ff9844b62832b1816a1aa3a4?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF"
+            alt="Product 2"
+          />
+          <h3>Wireless Speaker</h3>
+          <p class="price">$79.99</p>
+          <button class="btn" onclick="redirectToProduct(2)">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://www.jiomart.com/images/product/original/rvczsoocvi/punnkfunnk-gen-9-bluetooth-calling-smart-watch-specially-made-for-girl-women-free-rose-golden-strap-1-6-inch-full-sunlight-proof-display-product-images-orvczsoocvi-p608456897-0-202403141918.jpg?im=Resize=(1000,1000)"
+            alt="Product 3"
+          />
+          <h3>Smart Watch</h3>
+          <p class="price">$129.99</p>
+          <button class="btn" onclick="redirectToProduct(3)">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="categories">
+      <h2>Shop by Category</h2>
+      <div class="category-grid">
+        <div class="category-card">
+          <img
+            src="https://3.imimg.com/data3/TB/KQ/MY-238885/videocon-ha.jpg"
+            alt="Electronics"
+          />
+          <h3>Electronics</h3>
+        </div>
+        <div class="category-card">
+          <img
+            src="https://media.burford.co.uk/images/SNY04089.jpg_edit.width-640_ln7jm6QxYVkHFHaT.jpg"
+            alt="Clothing"
+          />
+          <h3>Clothing</h3>
+        </div>
+        <div class="category-card">
+          <img
+            src="https://img.freepik.com/free-photo/stacked-tableware_23-2148861765.jpg"
+            alt="Home Goods"
+          />
+          <h3>Home Goods</h3>
+        </div>
+        <div class="category-card">
+          <img
+            src="https://img.freepik.com/free-photo/top-view-accessoires-travel-with-women-clothing-concept-white-mobilephone-watch-bag-hat-map-camera-necklace-trousers-sunglasses-white-wood-table_1921-106.jpg"
+            alt="Accessories"
+          />
+          <h3>Accessories</h3>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>ShopEasy</h3>
+          <p>Your one-stop shop for amazing products at amazing prices!</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p>Email: info@shopeasy.com</p>
+          <p>Phone: (555) 123-4567</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 ShopEasy. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
